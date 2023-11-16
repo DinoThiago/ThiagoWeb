@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title -->
+    <title>DinoThiago Portfólio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/extends.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar__content">
+        <a href="/">
+          <img src="assets/desenho.svg" alt="Thiago foto" />
+        </a>
+        <ul class="navbar__links">
+          <li><a href="#header">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#footer">Contato</a></li>
+        </ul>
+        <div class="navbar__mobile">
+          <img src="assets/menu.svg" alt="menu" class="burguer" />
+          <ul class="mobile__links">
+            <li><a href="#header">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#footer">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- header -->
+    <header id="header" class="max-width">
+      <div class="header__left">
+        <h1>Olá! Sou Thiago Oliveira desenvolvedor Front-end e UI Design</h1>
+        <p>
+          Desenvolvedor web com experiência em desenvolvimento de ChatBot, desenvolvimento Java e Python.
+        </p>
+        <a href="https://api.whatsapp.com/send?phone=5519996122613" class="btn btn-primary">Fale comigo!</a>
+      </div>
+      <div class="header__right">
+        <div class="header__image">
+          <img src="./assets/thiagofoto.png" alt="Thiago foto" class="Thiago" />
+          <img src="assets/abstract.svg" alt="background" class="background" />
+        </div>
+      </div>
+    </header>
+
+    <!-- Sobre -->
+    <section id="about" class="about max-width">
+      <div class="about__left">
+        <h2 class="secondary-title">Além do código: quem sou eu?</h2>
+        <p>
+          Que tal se conectar comigo nas redes sociais abaixo e saber mais?
+        </p>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/thiagocladino/"><img src="assets/instagram.svg" alt="Instagram" /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/thiago-oliveira-271901100/"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/thiago.claudino.3/"><img src="assets/facebook.svg" alt="Facebook" /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="about__right">
+        <h3 class="tertiary-title mb-m">
+          Desenvolvedor Web apaixonado por tecnologia e soluções
+        </h3>
+        <p>
+          Olá, eu sou Thiago Claudino, um desenvolvedor Web imerso na tecnoogia desde 2018.
+          Sou formado em Analíse e desenvolvimento de sistemas pela faculdade Arthur de Azevedo.
+        </p>
+        <p>
+          A partir disso não parei mais de estudar.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projects" class="projects max-width">
+      <div class="projects__content">
+        <h2 class="secondary-title">Projetos em Destaque</h2>
+        <p>
+          De ideias abstratas a projetos concluidos, aqui estão alguns dos
+          meus trabalhos mais recentes
+        </p>
+      </div>
+      <ul>
+        <li>
+          <div class="image">
+            <img src="./assets/freelancer.PNG" alt="freelancer" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              Serviços freelancers
+            </h3>
+            <p>
+              Sistema para profissionais de tecnologia se cadastrar
+              para receber demandas e cada vez ficar atualizado.
+            </p>
+            <a href="#">Leia mais &rarr;</a>
+          </div>
+        </li>
+        <li class="projects__reversed-list">
+          <div class="image">
+            <img src="./assets/chatbot2.PNG" alt="fatec" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              Desenvolvimento de ChatBot para Fatec de Mogi Mirim
+            </h3>
+            <p>
+              Foi desenvolvido um chatbot para secretaria da Fatec para auxiliar
+              nas tarefas repetidas e dúvidas do cotidiano, com bolsistas 
+              da Fatec de Mogi Mirim.
+            </p>
+            <a href="#">Leia mais &rarr;</a>
+          </div>
+        </li>
+        <li>
+          <div class="image">
+            <img src="./assets/chatbot1.PNG" alt="mogi2go" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              Desenvolvimento de ChatBot para startUp mogi2go
+            </h3>
+            <p>
+              Esse projeto teve inicio no final de 2021 e durou seis meses.
+              A idéia inicial seria um assistente para a propria secretaria
+              e os demais projetos para parceiros.
+            </p>
+            <a href="#">Leia mais &rarr;</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer__content max-width mb-0">
+        <h2 class="tertiary-title mb-s">Vamos conversar?</h2>
+        <p class="mb-m">
+          Ficarei feliz em saber mais sobre seus projetos e como podemos
+          trabalhar juntos para torná-los realidade.
+        </p>
+        <div class="footer__contact mb-m">
+          <span class="mb-m">claudinothiago@hotmail.com</span>
+          <span>19 99612-2613</span>
+        </div>
+        <ul class="mb-l">
+          <li>
+            <a href="https://www.instagram.com/thiagocladino/"><img src="assets/instagram.svg" alt="Instagram" /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/thiago-oliveira-271901100/"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/thiago.claudino.3/"><img src="assets/facebook.svg" alt="Facebook" /></a>
+          </li>
+        </ul>
+        <p class="footer__copyright">
+          © 2023 Thiago Claudino. Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+    <!-- script -->
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
